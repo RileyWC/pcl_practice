@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="pcl_tutorial_pkg" type="pcl_tutorial_pkg_node" name="pcl_pub_node" output="screen">
+    <param name="pcl_input_topic" value="/camera/depth/points"/>
+    <param name="output_topic" value="/pcl_output"/>
+    </node>
+</launch>
